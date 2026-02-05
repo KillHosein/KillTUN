@@ -34,7 +34,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/KillHosein/VortexL2-main/main/
 ### 1. Open the Management Panel
 
 ```bash
-sudo vortexl2
+sudo killhosein
 ```
 
 ### 2. Create Tunnels (Manage Tunnels → Add New Tunnel)
@@ -73,7 +73,7 @@ Select "Port Forwards" and add ports like: `443,80,2053`
 ### Server A Setup
 
 ```bash
-sudo vortexl2
+sudo killhosein
 
 # 1. Install prerequisites (option 1)
 # 2. Manage Tunnels (option 2) → Add New Tunnel
@@ -94,7 +94,7 @@ sudo vortexl2
 ### Server B Setup
 
 ```bash
-sudo vortexl2
+sudo killhosein
 
 # Same steps but with swapped values:
 #    - Local IP: 5.6.7.8
@@ -110,9 +110,9 @@ sudo vortexl2
 
 | Command | Description |
 |---------|-------------|
-| `sudo vortexl2` | Open management panel |
-| `sudo vortexl2 apply` | Apply all tunnels (for systemd boot) |
-| `sudo vortexl2 --version` | Show version |
+| `sudo killhosein` | Open management panel |
+| `sudo killhosein apply` | Apply all tunnels (for systemd boot) |
+| `sudo killhosein --version` | Show version |
 
 ## 🔍 Troubleshooting
 
@@ -278,7 +278,7 @@ sudo systemctl disable vortexl2-tunnel
 
 # Remove files
 sudo rm -rf /opt/vortexl2
-sudo rm /usr/local/bin/vortexl2
+sudo rm /usr/local/bin/killhosein
 sudo rm /etc/systemd/system/vortexl2-*
 sudo rm -rf /etc/vortexl2
 

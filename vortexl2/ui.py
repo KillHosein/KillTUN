@@ -62,12 +62,12 @@ def prompt_valid_ip(label: str, default: str = None, required: bool = True) -> O
 
 
 ASCII_BANNER = r"""
- __      __        _            _     ___  
- \ \    / /       | |          | |   |__ \ 
-  \ \  / /__  _ __| |_ _____  _| |      ) |
-   \ \/ / _ \| '__| __/ _ \ \/ / |     / / 
-    \  / (_) | |  | ||  __/>  <| |____/ /_ 
-     \/ \___/|_|   \__\___/_/\_\______|____|
+ _  __ _ _ _ _   _                      
+| |/ /(_) | | | | |                     
+| ' /  _| | | |_| | ___  _ __   ___ ___ 
+|  <  | | | |  _  |/ _ \| '_ \ / _ / __|
+| . \ | | | | | | | (_) | | | |  __\__ \
+|_|\_\|_|_|_|_| |_|\___/|_| |_|\___|___/
 """
 
 
@@ -87,8 +87,8 @@ def show_banner():
     
     # Developer info bar
     console.print(Panel(
-        f"[bold white]Telegram:[/] [cyan]@iliyadevsh[/]  |  [bold white]Version:[/] [red]{__version__}[/]  |  [bold white]GitHub:[/] [cyan]github.com/iliya-Developer[/]",
-        title="[bold white]VortexL2 - L2TPv3 Tunnel Manager[/]",
+        f"[bold white]Telegram:[/] [cyan]@killhosein[/]  |  [bold white]Version:[/] [red]{__version__}[/]  |  [bold white]GitHub:[/] [cyan]github.com/KillHosein[/]",
+        title="[bold white]killhosein[/]",
         border_style="cyan",
         box=box.ROUNDED
     ))

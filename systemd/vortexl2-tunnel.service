@@ -2,11 +2,11 @@
 Description=VortexL2 L2TPv3 Tunnel Setup
 After=network-online.target
 Wants=network-online.target
-Documentation=https://github.com/iliya-Developer/VortexL2
+Documentation=https://github.com/KillHosein/VortexL2-main
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/vortexl2 apply
+ExecStart=/usr/local/bin/killhosein apply
 RemainAfterExit=yes
 StandardOutput=journal
 StandardError=journal

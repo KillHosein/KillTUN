@@ -331,8 +331,8 @@ Commands:
   apply      Apply all tunnel configurations (used by systemd)
 
 Examples:
-  sudo vortexl2           # Open management panel
-  sudo vortexl2 apply     # Apply all tunnels (for systemd)
+  sudo killhosein           # Open management panel
+  sudo killhosein apply     # Apply all tunnels (for systemd)
         """
     )
     parser.add_argument(
